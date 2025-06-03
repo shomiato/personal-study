@@ -1,0 +1,36 @@
+/*styles.css*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+#one {
+    background-color: red;
+    /*The space around the content, includes background color*/
+    padding: 20px; 
+    height: 100px;
+    width: 100px;
+    /*The space around the padding, adds background to content*/
+    border: 20px solid purple;
+    /*margin is the space outside of the border*/
+    margin: 100px;
+    /* border-box makes set height and width account for border and margin*/
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: blue;
+    border: 0 solid green;
+    padding: 20px; 
+    height: 100px;
+    width: 100px;
+    /*The space around the padding, adds background to content*/
+    border: 30px solid purple;
+    /*margin is the space outside of the border*/
+    margin: 70px;
+}
+
+/*margin is best used to space between objects*/
+/*Padding is best used to space element from itself*/
